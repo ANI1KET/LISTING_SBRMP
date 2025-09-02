@@ -11,7 +11,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 import React, { useRef } from "react";
-import html2canvas from "html2canvas";
+import html2canvas from "html2canvas-pro";
 
 import { useToast } from "@/app/common/hooks/use-toast";
 
@@ -130,6 +130,8 @@ const RequiredInfoGuide: React.FC<RequiredInfoGuideProps> = ({
         description: "Room Listing guide is downloaded!",
       });
     } catch (error) {
+      console.log(error);
+
       toast({
         title: "Room List",
         description: "Failed to download room listing guide. Try again.",
