@@ -59,7 +59,7 @@ const RequiredInfoGuide: React.FC<RequiredInfoGuideProps> = ({
         "Price (Rs.25,000/month)",
         "Minimum Capacity (people)",
         "Maximum Capacity (people)",
-        "Direction (North, South, East, West)",
+        "Direction (Center, North, South, East, West)",
       ],
     },
     {
